@@ -4,9 +4,6 @@
   "description": "Chrome extension sample",
   "version": "1.0.0",
   "manifest_version": 3,
-  "icons": {
-    "48": "icon.png"
-  },
   "content_scripts": [
     {
       "matches": ["https://trello.com/b/*/calendar-*"],
