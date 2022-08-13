@@ -1,0 +1,59 @@
+/* 全体のレイアウト */
+#board {
+    display: block !important;
+    text-align: left!important;
+    position: relative !important;
+    white-space: initial!important;
+    padding-bottom: 24px!important;
+    min-width: 1414px !important;
+}
+
+.board-canvas {
+    height: auto !important;
+}
+
+.body-board-view {
+    overflow-y: visible!important;
+}
+
+.js-list,
+.js-add-list {
+    display: inline-block !important;
+    vertical-align: top!important;
+    margin: 0 0 10px 10px!important;
+}
+
+.u-gutter {
+    margin-left: 0!important;
+}
+
+/* 文字の色 */
+textarea.list-header-name {
+    color: #fff !important;
+}
+
+textarea.list-header-name.is-editing {
+    color: #172b4d !important;
+}
+
+.body-light-board-background textarea.list-header-name {
+    color: #172b4d !important;
+}
+
+/* リスト */
+.list {
+    background-color: hsla(0,0%,100%,.4)!important;
+    height: 400px!important;
+    border: 1px solid white !important;
+    border-radius: 30px 0 30px 0 !important;
+}
+
+/* 今日の日付 */
+.list.is-today {
+    /* 赤背景 */
+    background-color: rgba(255, 209, 209, 0.3) !important;
+
+    /* ボーダー */
+    border-color: #ee8080 !important;
+    border-width: 3px!important;
+}
